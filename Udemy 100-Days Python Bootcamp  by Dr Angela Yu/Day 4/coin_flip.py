@@ -1,3 +1,10 @@
+###
+
+# Project Name: Casino Coin Flip
+# Description : Coin flip game between a bot and the user and winner takes all and they should go until one goes out.
+# Author      : Senthil Kumar Kanagaraj
+# Date        : 31-Aug-2021
+
 import random
 
 user_cash = 10000
