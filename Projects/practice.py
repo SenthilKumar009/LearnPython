@@ -1,5 +1,11 @@
-numbers = [12, 75, 150, 180, 145, 525, 50]
+L1 = [10, 20, 30, 25, 32, 45, 50] 
+L2 = [80, 70, 78, 55, 62]
 
-for i in numbers:
-    if i != 150 and i <=500 and i % 5 == 0:
-        print(i) 
+print(sum(L1) - sum(L2))
+
+def func(x=1, y=2):
+    x = x + y
+    y += 1
+    print(x,y)
+
+func(y = 2, x = 1)
